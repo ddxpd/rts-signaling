@@ -1,0 +1,16 @@
+{
+  "name": "rts-demo-signaling",
+  "version": "1.0.0",
+  "description": "WebRTC signaling server for RTS demo multiplayer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
